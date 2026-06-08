@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.ProtocolAlerts" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#183A53</item>
+        <item name="android:windowBackground">#EEF6F8</item>
+    </style>
+</resources>

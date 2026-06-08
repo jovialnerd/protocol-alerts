@@ -1,0 +1,75 @@
+{
+  "version": "2026-06-08",
+  "source": "MetabolicIntelligence_Dashboard_v4 — Training/Match/Rest timelines",
+  "weekdayDefault": {
+    "MONDAY": "TRAINING",
+    "TUESDAY": "REST",
+    "WEDNESDAY": "TRAINING",
+    "THURSDAY": "REST",
+    "FRIDAY": "TRAINING",
+    "SATURDAY": "MATCH",
+    "SUNDAY": "REST"
+  },
+  "days": {
+    "TRAINING": {
+      "channel": "training",
+      "label": "Training Day",
+      "events": [
+        { "id": "tr_0630", "time": "06:30", "leadMinutes": 0, "title": "Wake — fasted (AMPK priming)",
+          "body": "Fasted, no food yet. Take: NMN 300mg + TMG 500mg." },
+        { "id": "tr_0700", "time": "07:00", "leadMinutes": 0, "title": "Breakfast + primary AGE defense",
+          "body": "3 whole eggs (poached) + avocado + veg, ~22g protein. AM stack: Omega-3 (2.5g EPA/1g DHA), D3 4000IU+K2, ALA 300mg, Benfotiamine 300mg, Astaxanthin 12mg, Berberine 500mg, Mg glycinate 300mg. AGE defense: Sulforaphane 30mg, NAC 600mg, Zinc 15-30mg, EGCG 200mg, Rosemary 300mg, Rutin+Hesperidin, Vit C 250mg. Superfoods: spirulina, moringa, chlorella, pomegranate, Ceylon cinnamon, turmeric. No cocoa on training days." },
+        { "id": "tr_0830", "time": "08:30", "leadMinutes": 15, "title": "Pre-workout performance stack",
+          "body": "NMN 300mg (2nd), Acetyl-L-Carnitine 1000mg, Rhodiola 300-500mg, Beetroot 8-10g (≥6.5mmol nitrate), L-Citrulline malate 6-8g, Caffeine 200-400mg, Collagen 15g + Vit C 50mg (Baar protocol), Beta-Alanine 3.2-6.4g, Taurine 1.5g, Benfotiamine 300mg (2nd). Triple-NO: beetroot + citrulline." },
+        { "id": "tr_1000", "time": "10:00", "leadMinutes": 0, "title": "Training (mTOR via mechanical load)",
+          "body": "Hydration only. Electrolytes + water. Optional BCAA sips during." },
+        { "id": "tr_1130", "time": "11:30", "leadMinutes": 0, "title": "Post-workout — CRITICAL within 45 min",
+          "body": "170g turkey breast (poached/steamed) + white rice/potato + banana, ~50g protein, 4g+ leucine. ADD 30g whey isolate. Creatine 5g, Glutamine 5g, Ashwagandha 300mg, Fenugreek 250mg. mTOR window PROTECTED — NO curcumin/quercetin/GSE/spirulina/cocoa." },
+        { "id": "tr_1530", "time": "15:30", "leadMinutes": 0, "title": "Afternoon — 2nd AGE defense window",
+          "body": "170g salmon (low-temp) + leafy greens + olive oil, ~36g protein. NOW add mTOR inhibitors: Curcumin 500mg, Quercetin 500mg, Grape seed extract 300mg. 2nd doses: NAC 600mg, ALA 300mg, Taurine 1.5g, Ceylon cinnamon 1g." },
+        { "id": "tr_1900", "time": "19:00", "leadMinutes": 0, "title": "Dinner — mTOR maintenance",
+          "body": "3-4 whole eggs + veg + complex carbs, ~28-35g protein. ADD 30g casein. Evening: ALA 300mg, Curcumin 500mg (2nd), Omega-3 (2nd), Glutathione 500mg, Spermidine 10mg, CaAKG 1000mg." },
+        { "id": "tr_2130", "time": "21:30", "leadMinutes": 0, "title": "Pre-sleep — repair / GH window",
+          "body": "Collagen 15g + Vit C 50mg (tendons). Mg L-Threonate 2000mg, Apigenin 50mg, Ashwagandha 300mg (KSM-66), UC-II 40mg (empty stomach, separate from collagen), Clove 0.5g." }
+      ]
+    },
+    "MATCH": {
+      "channel": "match",
+      "label": "Match Day",
+      "events": [
+        { "id": "mt_0600", "time": "06:00", "leadMinutes": 0, "title": "Wake — fasted",
+          "body": "Fasted. NMN 300mg." },
+        { "id": "mt_0630", "time": "06:30", "leadMinutes": 0, "title": "Breakfast (5-6h pre) + AGE defense",
+          "body": "4 whole eggs (poached) + oatmeal + banana + avocado, ~28g protein + glycogen carbs. Full AM stack: Omega-3, D3+K2, ALA 300mg, Benfotiamine 300mg, Astaxanthin 12mg, Berberine 500mg, Mg glycinate. AGE defense: Sulforaphane, NAC, Zinc, EGCG, Rosemary, Rutin+Hesperidin, Vit C. Superfoods incl. Ceylon cinnamon. No cocoa yet (save for pre-match)." },
+        { "id": "mt_0930", "time": "09:30", "leadMinutes": 0, "title": "Pre-match (2.5-3h) — QUAD-NO stack",
+          "body": "Light meal: 2 eggs + toast + banana OR 100g turkey + rice. Beetroot 8-10g (DOUBLED), L-Citrulline malate 8g, Cocoa 10g (non-alkalized — match day OK), Caffeine 200-400mg, Rhodiola 500mg, Collagen 15g + Vit C, Beta-Alanine 3.2-6.4g, Taurine 3g, Benfotiamine 300mg." },
+        { "id": "mt_1100", "time": "11:00", "leadMinutes": 10, "title": "1 hour pre-match",
+          "body": "No solid food. Hydration only. Electrolytes. Optional small caffeine." },
+        { "id": "mt_1200", "time": "12:00", "leadMinutes": 0, "title": "MATCH",
+          "body": "Hydration + electrolytes. ~60g carbs/hour if extended. Optional easily-digestible carbs between sets." },
+        { "id": "mt_1330", "time": "13:30", "leadMinutes": 0, "title": "Post-match — CRITICAL within 45 min",
+          "body": "170g turkey breast (steamed) + white rice + banana + electrolyte drink, ~50g protein. ADD 30g whey. Creatine 5g, Glutamine 15-20g IF heat ≥30°C (gut protection), Ashwagandha 300mg, Fenugreek 250mg. mTOR window PROTECTED — no curcumin/quercetin/spirulina." },
+        { "id": "mt_1730", "time": "17:30", "leadMinutes": 0, "title": "Afternoon — 2nd AGE defense window",
+          "body": "170g salmon (low-temp) + veg + olive oil, ~36g protein. Curcumin 1000mg (DOUBLED for match recovery), Quercetin 500mg, GSE 300mg. 2nd doses: NAC 600mg, ALA 300mg, Pomegranate 500mg." },
+        { "id": "mt_1930", "time": "19:30", "leadMinutes": 0, "title": "Dinner — recovery + repair",
+          "body": "3-4 whole eggs + veg + sweet potato, ~28-35g protein. ADD 40g casein. ALA 300mg, Curcumin 500mg (3rd if tolerated), Omega-3 (2nd), Glutathione 500mg, Spermidine 10mg." },
+        { "id": "mt_2130", "time": "21:30", "leadMinutes": 0, "title": "Pre-sleep — enhanced repair",
+          "body": "Collagen 15g + Vit C (tendons). Mg L-Threonate 2000mg, Apigenin 50mg, Ashwagandha 300mg (2nd), Mg glycinate 300mg, UC-II 40mg (empty stomach), Clove 0.5g." }
+      ]
+    },
+    "REST": {
+      "channel": "rest",
+      "label": "Rest Day",
+      "events": [
+        { "id": "rs_0700", "time": "07:00", "leadMinutes": 0, "title": "Wake — extended fast (autophagy)",
+          "body": "Continue fast until 10AM-12PM (16-18h autophagy window). Rest day = max AGE defense. NMN 300mg + TMG 500mg. Fasting upregulates GLO1 via AMPK-Nrf2." },
+        { "id": "rs_1500", "time": "15:00", "leadMinutes": 0, "title": "Lunch — break fast",
+          "body": "170g salmon (poached/low-temp) + quinoa + leafy greens + olive oil, ~36g protein. Blueberries for dessert. ALCAR 500mg, Ginkgo 240mg (rest day only), L-Citrulline 6g, Beetroot maintenance. 2nd doses: ALA 300mg, Curcumin 500mg, Ceylon cinnamon 1g, Taurine 1.5g." },
+        { "id": "rs_1800", "time": "18:00", "leadMinutes": 0, "title": "Dinner — last meal (6PM cutoff)",
+          "body": "150g turkey breast (steamed) + sweet potato + veg, ~44g protein. ADD 30g casein. Evening: ALA 300mg, Curcumin 500mg, Omega-3, Glutathione 500mg, Spermidine 10mg, CaAKG 1000mg, NAC 600mg. STRICT 6PM cutoff for 16-18h fast." },
+        { "id": "rs_2130", "time": "21:30", "leadMinutes": 0, "title": "Pre-sleep — repair + autophagy",
+          "body": "NO collagen tonight (autophagy priority — even 12g protein suppresses autophagy). Mg L-Threonate 2000mg, Apigenin 50mg, Ashwagandha 600mg (full), UC-II 40mg (empty stomach — autophagy-safe), Clove 0.5g." }
+      ]
+    }
+  }
+}
